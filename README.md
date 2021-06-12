@@ -1,6 +1,6 @@
 <h1>API DOCUMENTATION</h1>
 <h2>AUTHORIZATION : BEARER TOKEN</h1>
-<p>This API was built with PHP(LARAVEL FRAMEWORK).</p>
+<p>This API was built with PHP(LARAVEL FRAMEWORK) and authentaicated with JWT token</p>
 
 <h2>SETUP</h2>
 <ul>

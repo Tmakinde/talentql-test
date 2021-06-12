@@ -55,7 +55,7 @@
         <li>Request sample
             <ul>
                 <code style="color: red">
-                    {
+                    <pre>{
                         "matrixA": {
                             "1" : ["a", "b", "c"],
                             "2" : ["c", "v", "2"],
@@ -66,7 +66,7 @@
                             "2" : ["c", "g", "j"],
                             "3": ["l", "o", "O"]
                         }
-                    }
+                    }</pre>
                 </code>
             </ul>
         <li>

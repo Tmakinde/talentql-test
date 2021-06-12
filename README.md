@@ -91,6 +91,10 @@
             }</pre>
         </code>
         </li>
+        <div>
+            <h5>The keys of the array specify the row and the value specify the value in the row column e.g { "1": ['a', 'b']} means row 1 have a in column 1 and b in column 2</h5>
+            <h5><b>Always send keys as number starting from 1<b></h5>
+        </div>
         <li>Users: AUTH</li>
     </ul>
 </div>
@@ -101,9 +105,4 @@
         <li>METHOD: POST</li>
         <li>Users: AUTH</li>
     </ul>
-</div>
-
-<div>
-    <h3>The keys of the array specify the row and the value specify the value in the row column e.g { "1": ['a', 'b']} means row 1 have a in column 1 and b in column 2</h3>
-    <h3><b>Always send keys as number starting from 1<b></h3>
 </div>

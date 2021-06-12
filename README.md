@@ -72,7 +72,7 @@
         <li>
         <li>Response sample
             <ul>
-                <code style="color: red">
+                <code style="background-color: red">
                     {
                         "result": {
                             "1": [

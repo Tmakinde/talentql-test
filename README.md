@@ -53,47 +53,43 @@
             </ul>
         </li>
         <li>Request sample
-            <ul>
-                <code>
-                    <pre>{
-                        "matrixA": {
-                            "1" : ["a", "b", "c"],
-                            "2" : ["c", "v", "2"],
-                            "3" : ["g", "k", "j"]
-                        },
-                        "matrixB": {
-                            "1" : ["a", "f", "h"],
-                            "2" : ["c", "g", "j"],
-                            "3": ["l", "o", "O"]
-                        }
-                    }</pre>
-                </code>
-            </ul>
+        <code>
+            <pre>{
+                "matrixA": {
+                    "1" : ["a", "b", "c"],
+                    "2" : ["c", "v", "2"],
+                    "3" : ["g", "k", "j"]
+                },
+                "matrixB": {
+                    "1" : ["a", "f", "h"],
+                    "2" : ["c", "g", "j"],
+                    "3": ["l", "o", "O"]
+                }
+            }</pre>
+        </code>
         <li>
         <li>Response sample
-            <ul>
-                <code>
-                    <pre>{
-                        "result": {
-                            "1": [
-                                "aabccl",
-                                "afbgco",
-                                "ahbjcO"
-                            ],
-                            "2": [
-                                "cavc2l",
-                                "cfvg2o",
-                                "chvj2O"
-                            ],
-                            "3": [
-                                "gakcjl",
-                                "gfkgjo",
-                                "ghkjjO"
-                            ]
-                        }
-                    }</pre>
-                </code>
-            </ul>
+        <code>
+            <pre>{
+                "result": {
+                    "1": [
+                        "aabccl",
+                        "afbgco",
+                        "ahbjcO"
+                    ],
+                    "2": [
+                        "cavc2l",
+                        "cfvg2o",
+                        "chvj2O"
+                    ],
+                    "3": [
+                        "gakcjl",
+                        "gfkgjo",
+                        "ghkjjO"
+                    ]
+                }
+            }</pre>
+        </code>
         </li>
         <li>Users: AUTH</li>
     </ul>
@@ -105,4 +101,9 @@
         <li>METHOD: POST</li>
         <li>Users: AUTH</li>
     </ul>
+</div>
+
+<div>
+    <h3>The keys of the array specify the row and the value specify the value in the row column e.g { "1": ['a', 'b']} means row 1 have a in column 1 and b in column 2</h3>
+    <h3><b>Always send keys as number starting from 1<b></h3>
 </div>

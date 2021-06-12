@@ -1,4 +1,3 @@
-# talentql-test
 <h1>API DOCUMENTATION</h1>
 <h2>AUTHORIZATION : BEARER TOKEN</h1>
 <p>This API was built with PHP(LARAVEL FRAMEWORK).</p>
@@ -55,7 +54,7 @@
         </li>
         <li>Request sample
             <ul>
-                <code>
+                <code style="color: red">
                     {
                         "matrixA": {
                             "1" : ["a", "b", "c"],
@@ -73,7 +72,7 @@
         <li>
         <li>Response sample
             <ul>
-                <code>
+                <code style="color: red">
                     {
                         "result": {
                             "1": [

@@ -72,8 +72,8 @@
         <li>
         <li>Response sample
             <ul>
-                <code style="background-color: red">
-                    {
+                <code>
+                    <pre>{
                         "result": {
                             "1": [
                                 "aabccl",
@@ -91,7 +91,7 @@
                                 "ghkjjO"
                             ]
                         }
-                    }
+                    }</pre>
                 </code>
             </ul>
         </li>
